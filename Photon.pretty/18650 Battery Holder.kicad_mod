@@ -1,0 +1,212 @@
+(footprint "18650 Battery Holder"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -14.732 -1.008 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e2eebd31-e3bb-44a9-8cc3-943dbfbe5110")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "18650 Battery Holder"
+		(at -14.732 0.492 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a2a00bce-aaa8-437e-9f0e-15874acea013")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "57af5df9-cac9-4bed-a207-95b63004fb9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d4b8221-4576-42b8-9f1b-f36d170d33d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 10.922 0)
+		(end 18.542 0)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9c2d78c8-dea7-49f0-9352-cf1290b64637")
+	)
+	(fp_line
+		(start 59.69 0)
+		(end 67.31 0)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1e7f2393-598f-4c60-9953-2cd7caab67cc")
+	)
+	(fp_line
+		(start 63.5 -3.81)
+		(end 63.5 3.81)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f41ed123-bdd8-4054-9ef7-ec743ccaffb8")
+	)
+	(fp_circle
+		(center 75.438 7.895094)
+		(end 77.038 7.895094)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "192cbfda-8f8e-4510-8455-82533570ebd6")
+	)
+	(fp_rect
+		(start -5.08 -10.16)
+		(end 83.82 10.16)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "ebcfd891-0a02-4976-81d4-89b522fde103")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -14.732 1.992 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4ef46867-c554-4f87-88b4-4b6fa9db9be2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "4eb2c83d-b43b-439f-a7ac-eaf479fdffc8")
+		(pts
+			(xy 0 0) (xy 79.248 0.508)
+		)
+		(height 14.605)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.2)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "79.248"
+			(at 39.624 12.805 0)
+			(layer "Dwgs.User")
+			(uuid "4eb2c83d-b43b-439f-a7ac-eaf479fdffc8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "F.CrtYd")
+		(uuid "9a730825-e12e-44c4-91ff-e9cd8052e693")
+		(pts
+			(xy 100.33 10.16) (xy 100.33 -10.16)
+		)
+		(height 10.16)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 0)
+			(precision 4)
+			(suppress_zeroes yes)
+		)
+		(style
+			(thickness 0.05)
+			(arrow_length 1.27)
+			(text_position_mode 2)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "20.32"
+			(at 109.34 0 90)
+			(layer "F.CrtYd")
+			(uuid "9a730825-e12e-44c4-91ff-e9cd8052e693")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 0 0)
+		(size 7.77 7.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "f46442db-2a0d-41d5-a01c-8f37e57871fb")
+	)
+	(pad "2" smd roundrect
+		(at 79.248 0)
+		(size 7.77 7.35)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "ee4aa74a-883b-42b9-91b5-931147afc5c2")
+	)
+	(embedded_fonts no)
+)
