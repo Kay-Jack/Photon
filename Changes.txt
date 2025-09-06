@@ -1,0 +1,7 @@
+- Add more vias for LED pour
+- 
+- USB C doesnt fit right. Solder pads too small and not centered? 
+    - Add 5.1K to CC1 and CC2 on USB for power
+- Footprint for Attiny is incorrect (too big) 
+- Inductor L1 pads may need to be bigger 
+- new battery ic Iterm = 100-200mA = 3.8K if En1=EN2=/GND ? (can be left floating to just not fuck with it)
