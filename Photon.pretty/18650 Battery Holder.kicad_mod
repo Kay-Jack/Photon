@@ -65,6 +65,16 @@
 		(uuid "9c2d78c8-dea7-49f0-9352-cf1290b64637")
 	)
 	(fp_line
+		(start 14.732 -3.81)
+		(end 14.732 3.81)
+		(stroke
+			(width 1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f41ed123-bdd8-4054-9ef7-ec743ccaffb8")
+	)
+	(fp_line
 		(start 59.69 0)
 		(end 67.31 0)
 		(stroke
@@ -74,19 +84,9 @@
 		(layer "F.SilkS")
 		(uuid "1e7f2393-598f-4c60-9953-2cd7caab67cc")
 	)
-	(fp_line
-		(start 63.5 -3.81)
-		(end 63.5 3.81)
-		(stroke
-			(width 1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "f41ed123-bdd8-4054-9ef7-ec743ccaffb8")
-	)
 	(fp_circle
-		(center 75.438 7.895094)
-		(end 77.038 7.895094)
+		(center 75.438 8.128)
+		(end 76.454 8.233906)
 		(stroke
 			(width 0.25)
 			(type solid)
@@ -224,82 +224,6 @@
 			(font
 				(size 1 1)
 				(thickness 0.15)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "4eb2c83d-b43b-439f-a7ac-eaf479fdffc8")
-		(pts
-			(xy 0 0) (xy 79.248 0.508)
-		)
-		(height 14.605)
-		(orientation 0)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.2)
-			(arrow_length 1.27)
-			(text_position_mode 0)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "79.248"
-			(at 39.624 12.805 0)
-			(layer "Dwgs.User")
-			(uuid "4eb2c83d-b43b-439f-a7ac-eaf479fdffc8")
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-				)
-			)
-		)
-	)
-	(dimension
-		(type orthogonal)
-		(layer "Dwgs.User")
-		(uuid "9a730825-e12e-44c4-91ff-e9cd8052e693")
-		(pts
-			(xy 100.33 10.16) (xy 100.33 -10.16)
-		)
-		(height 10.16)
-		(orientation 1)
-		(format
-			(prefix "")
-			(suffix "")
-			(units 3)
-			(units_format 0)
-			(precision 4)
-			(suppress_zeroes yes)
-		)
-		(style
-			(thickness 0.05)
-			(arrow_length 1.27)
-			(text_position_mode 2)
-			(arrow_direction outward)
-			(extension_height 0.58642)
-			(extension_offset 0.5)
-			(keep_text_aligned yes)
-		)
-		(gr_text "20.32"
-			(at 109.34 0 90)
-			(layer "Dwgs.User")
-			(uuid "9a730825-e12e-44c4-91ff-e9cd8052e693")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
 			)
 		)
 	)

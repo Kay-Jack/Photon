@@ -607,8 +607,8 @@
 		)
 		(symbol "DW01A_1_1"
 			(rectangle
-				(start -3.81 7.62)
-				(end 8.89 -6.35)
+				(start -3.81 7.874)
+				(end 15.24 -11.43)
 				(stroke
 					(width 0)
 					(type solid)
@@ -636,7 +636,7 @@
 				)
 			)
 			(pin passive line
-				(at -6.35 0 0)
+				(at -6.35 -5.08 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -654,7 +654,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -8.89 90)
+				(at 3.81 -13.97 90)
 				(length 2.54)
 				(name "OD"
 					(effects
@@ -672,7 +672,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -8.89 90)
+				(at 8.89 -13.97 90)
 				(length 2.54)
 				(name "OC"
 					(effects
@@ -690,7 +690,7 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 3.81 180)
+				(at 17.78 3.81 180)
 				(length 2.54)
 				(name "TD"
 					(effects
@@ -708,9 +708,9 @@
 				)
 			)
 			(pin passive line
-				(at 11.43 -2.54 180)
+				(at 17.78 -2.54 180)
 				(length 2.54)
-				(name "Isense"
+				(name "VM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -733,7 +733,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -4.318 5.08 0)
+			(at -7.112 8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -777,8 +777,8 @@
 		)
 		(symbol "FS8205A_1_1"
 			(rectangle
-				(start -5.08 4.1275)
-				(end 10.16 -6.3499)
+				(start -7.62 7.4929)
+				(end 7.62 -7.4929)
 				(stroke
 					(width 0)
 					(type solid)
@@ -788,7 +788,7 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 2.54 0)
+				(at -10.16 0 0)
 				(length 2.54)
 				(name "S1"
 					(effects
@@ -806,16 +806,16 @@
 				)
 			)
 			(pin passive line
-				(at -7.62 -2.54 0)
+				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "S2"
+				(name "D1/D2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -824,7 +824,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 2.54 180)
+				(at -2.54 10.16 270)
 				(length 2.54)
 				(name "G1"
 					(effects
@@ -842,7 +842,7 @@
 				)
 			)
 			(pin input line
-				(at 12.7 0 180)
+				(at 2.54 10.16 270)
 				(length 2.54)
 				(name "G2"
 					(effects
@@ -860,7 +860,25 @@
 				)
 			)
 			(pin passive line
-				(at 12.7 -2.54 180)
+				(at 10.16 0 180)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -5.08 180)
 				(length 2.54)
 				(name "D1/D2"
 					(effects
@@ -870,24 +888,6 @@
 					)
 				)
 				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 12.7 -5.08 180)
-				(length 2.54)
-				(name "D1/D2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1040,6 +1040,194 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "TP4056"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -6.858 13.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TP4056_1_1"
+			(rectangle
+				(start -7.62 11.938)
+				(end 7.62 -12.446)
+				(stroke
+					(width 0)
+					(type solid)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -10.16 8.89 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 5.08 0)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -2.54 0)
+				(length 2.54)
+				(name "STAT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -8.89 0)
+				(length 2.54)
+				(name "STAT2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 8.89 180)
+				(length 2.54)
+				(name "VBAT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -1.27 180)
+				(length 2.54)
+				(name "ISET"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -6.35 180)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
