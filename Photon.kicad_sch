@@ -3740,8 +3740,8 @@
 		(uuid 0408e606-e9ee-4f44-9202-70f9e772d683)
 	)
 	(rectangle
-		(start 275.59 66.675)
-		(end 285.75 88.9)
+		(start 275.59 64.77)
+		(end 285.75 80.01)
 		(stroke
 			(width 0)
 			(type default)
@@ -3998,12 +3998,6 @@
 		(uuid "39f8e1de-7b73-4d5d-8c23-56ee694fa985")
 	)
 	(junction
-		(at 280.67 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a079ef4-eb0b-4848-83a3-08c959ef047e")
-	)
-	(junction
 		(at 345.44 200.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4086,6 +4080,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f2f8b6d-daba-4412-a860-514a1bb605ce")
+	)
+	(junction
+		(at 280.67 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f54aa1b-8825-405a-b22c-66c8736d66ff")
 	)
 	(junction
 		(at 163.83 212.09)
@@ -4435,16 +4435,6 @@
 	)
 	(wire
 		(pts
-			(xy 303.53 86.36) (xy 303.53 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "22afd697-58dc-4b2c-946b-7e62956c3545")
-	)
-	(wire
-		(pts
 			(xy 193.04 68.58) (xy 193.04 64.77)
 		)
 		(stroke
@@ -4452,6 +4442,16 @@
 			(type default)
 		)
 		(uuid "22ddbd13-c560-41ba-b401-a605b837e8e4")
+	)
+	(wire
+		(pts
+			(xy 280.67 77.47) (xy 280.67 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24bd4b1d-b58c-4abd-8f33-0520df24f2ae")
 	)
 	(wire
 		(pts
@@ -4705,7 +4705,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 86.36) (xy 303.53 86.36)
+			(xy 280.67 77.47) (xy 303.53 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4752,16 +4752,6 @@
 			(type default)
 		)
 		(uuid "5ca55c2b-1d80-430d-b8d4-02d6996e53ca")
-	)
-	(wire
-		(pts
-			(xy 298.45 63.5) (xy 298.45 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d1ffb5f-7191-4824-a421-384d08ea717c")
 	)
 	(wire
 		(pts
@@ -5025,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 66.04) (xy 280.67 68.58)
+			(xy 280.67 66.04) (xy 280.67 67.31)
 		)
 		(stroke
 			(width 0)
@@ -5215,7 +5205,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 76.2) (xy 280.67 86.36)
+			(xy 280.67 74.93) (xy 280.67 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5425,6 +5415,16 @@
 	)
 	(wire
 		(pts
+			(xy 298.45 63.5) (xy 298.45 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0128afd-c8bf-4e6d-be15-3edb4ab8738a")
+	)
+	(wire
+		(pts
 			(xy 328.93 86.36) (xy 328.93 91.44)
 		)
 		(stroke
@@ -5472,16 +5472,6 @@
 			(type default)
 		)
 		(uuid "c6c9b859-40cd-486a-a203-96738ec6245b")
-	)
-	(wire
-		(pts
-			(xy 280.67 86.36) (xy 280.67 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c73ecc42-9890-485e-95bf-4c7910b6be45")
 	)
 	(wire
 		(pts
@@ -5883,6 +5873,16 @@
 		)
 		(uuid "27fe36a8-a47a-4364-9664-6ef9dc8064c2")
 	)
+	(label "BAT_DSBL"
+		(at 298.45 83.82 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d948904-2c75-4a49-96a6-acb12db087a5")
+	)
 	(label "LED_PWR"
 		(at 176.53 73.66 270)
 		(effects
@@ -5993,8 +5993,8 @@
 		)
 		(uuid "72b7df7b-bf3a-4538-89f9-8238fe5413f6")
 	)
-	(label "Bat_Neg"
-		(at 280.67 77.47 0)
+	(label "Bat-"
+		(at 280.67 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6043,16 +6043,6 @@
 		)
 		(uuid "9624df89-a4b6-4ef6-bdb1-67fb8ac132fa")
 	)
-	(label "BAT_SAF_OUT"
-		(at 300.99 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9de64fc5-b1a2-4dee-8eea-08e53d156389")
-	)
 	(label "CC2"
 		(at 76.2 73.66 0)
 		(effects
@@ -6093,7 +6083,7 @@
 		)
 		(uuid "c0570a68-d2af-4ad3-9a51-7ec9a472d5b2")
 	)
-	(label "PMOS_OUT"
+	(label "PMOS_EN_OUT"
 		(at 163.83 191.77 0)
 		(effects
 			(font
@@ -6113,7 +6103,7 @@
 		)
 		(uuid "cf78b574-10de-4d49-8961-0d96ee522b2a")
 	)
-	(label "PMOS_Gate"
+	(label "USB_DSBL"
 		(at 144.78 184.15 0)
 		(effects
 			(font
@@ -11108,7 +11098,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 280.67 73.66 0)
+		(at 280.67 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11116,7 +11106,7 @@
 		(dnp no)
 		(uuid "c0c145cb-1a69-4791-a63c-51d8d3135431")
 		(property "Reference" "BT1"
-			(at 274.32 60.96 0)
+			(at 274.32 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11125,7 +11115,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 274.32 63.5 0)
+			(at 274.32 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11134,7 +11124,7 @@
 			)
 		)
 		(property "Footprint" "Photon:18650 Battery Holder"
-			(at 280.67 72.136 90)
+			(at 280.67 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11143,7 +11133,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 280.67 72.136 90)
+			(at 280.67 70.866 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11152,7 +11142,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 280.67 73.66 0)
+			(at 280.67 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
