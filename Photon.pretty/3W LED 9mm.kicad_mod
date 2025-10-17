@@ -54,17 +54,6 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -0.508 -4.445)
-		(end 0.508 -2.159)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "39024ea8-36d7-45c5-8fdd-2b3c4b921a43")
-	)
 	(fp_circle
 		(center 0 0)
 		(end 0 -2.159)
@@ -73,30 +62,9 @@
 			(type solid)
 		)
 		(fill yes)
-		(layer "F.Cu")
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.04)
 		(uuid "2536b52d-7cd9-4a94-bf91-b2fa0a4fb53f")
-	)
-	(fp_rect
-		(start -0.508 -4.445)
-		(end 0.508 -2.159)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "e6a2d233-e67f-4c79-87bb-b439e8076cca")
-	)
-	(fp_circle
-		(center 0 0)
-		(end 0 -2.159)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "6d662365-30ff-4480-b5d4-8d29f760a278")
 	)
 	(fp_line
 		(start 5.588 -2.032)
@@ -129,9 +97,9 @@
 		(uuid "33651861-d580-4e7b-b23d-0dc3ff1177bd")
 	)
 	(fp_arc
-		(start 0.889 -4.318)
-		(mid 0 4.408565)
-		(end -0.889 -4.318)
+		(start 0 -4.318)
+		(mid 0 4.318)
+		(end 0 -4.318)
 		(stroke
 			(width 0.12)
 			(type default)
