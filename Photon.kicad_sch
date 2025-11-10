@@ -3943,7 +3943,7 @@
 	)
 	(text "Buck_FB = 0.6V\nVo = 0.6 * (1+R1/R2) \nR2 = 60K to 300K"
 		(exclude_from_sim no)
-		(at 215.9 187.96 0)
+		(at 223.52 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6090,7 +6090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5_HandSoldering"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 182.88 207.01 0)
 			(effects
 				(font
