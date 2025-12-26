@@ -1,4 +1,0 @@
-Added circuit to disable buck if 5V is present 
-Added reverse polarity protection f or the battery 
-Added some missing nets 
-Did the PCB layout 

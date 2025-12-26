@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "Photon")(type "KiCad")(uri "${GITHUB}/Bike Light/Photon/Photon.kicad_sym")(options "")(descr ""))
+  (lib (name "Photon")(type "KiCad")(uri "${KIPRJMOD}/Photon.kicad_sym")(options "")(descr ""))
 )
