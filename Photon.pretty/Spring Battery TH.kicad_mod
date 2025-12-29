@@ -75,8 +75,8 @@
 		(uuid "cb2cb827-5210-489d-aee7-528658fc3ff2")
 	)
 	(fp_line
-		(start 6 5.5)
-		(end 11 5.5)
+		(start 6 5.2735)
+		(end 11 5.2735)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -85,8 +85,8 @@
 		(uuid "c14482b3-1443-4ebf-8264-a7c8cab86c4d")
 	)
 	(fp_line
-		(start 8.5 3)
-		(end 8.5 8)
+		(start 8.5 2.7735)
+		(end 8.5 7.7735)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -95,8 +95,8 @@
 		(uuid "517ec7f3-83a9-4b58-9664-b4b4eab7623d")
 	)
 	(fp_line
-		(start 41 5.5)
-		(end 46.5 5.5)
+		(start 39.922 5.2735)
+		(end 45.422 5.2735)
 		(stroke
 			(width 0.5)
 			(type default)
@@ -168,10 +168,10 @@
 		(layer "F.SilkS")
 		(uuid "0fb2c51a-9784-4cd7-932f-ee94ebff4385")
 	)
-	(fp_text user "18650"
-		(at 18.5 6.5 0)
+	(fp_text user "18650 Li-ion"
+		(at 13.97 6.477 0)
 		(unlocked yes)
-		(layer "F.SilkS" knockout)
+		(layer "F.SilkS")
 		(uuid "da35cd58-c933-4313-a34d-d1dfb4d8ca32")
 		(effects
 			(font
@@ -194,7 +194,7 @@
 		)
 	)
 	(pad "1" thru_hole circle
-		(at -5.6 5.5)
+		(at -4.6 5.5)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
@@ -202,7 +202,7 @@
 		(uuid "42b2e42c-70de-4fb2-97bb-5e3c9d9e64c3")
 	)
 	(pad "1" thru_hole circle
-		(at 2 3)
+		(at 3 3)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
@@ -210,7 +210,7 @@
 		(uuid "b6a3dd54-7b9c-47bd-b4a2-1156fbf0a2e6")
 	)
 	(pad "1" thru_hole circle
-		(at 2 8)
+		(at 3 8)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
@@ -218,7 +218,7 @@
 		(uuid "3954b02a-9194-45b6-8ad8-b046c9a6994d")
 	)
 	(pad "2" thru_hole circle
-		(at 50 3 180)
+		(at 49 3 180)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
@@ -226,7 +226,7 @@
 		(uuid "f54d9aee-0f16-4b15-9448-8ca572bd05da")
 	)
 	(pad "2" thru_hole circle
-		(at 50 8 180)
+		(at 49 8 180)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")
@@ -234,7 +234,7 @@
 		(uuid "078a1cd1-da4d-4d6f-8784-3d4456a68ba6")
 	)
 	(pad "2" thru_hole circle
-		(at 57.6 5.5 180)
+		(at 56.6 5.5 180)
 		(size 3 3)
 		(drill 1.8)
 		(layers "*.Cu" "*.Mask")

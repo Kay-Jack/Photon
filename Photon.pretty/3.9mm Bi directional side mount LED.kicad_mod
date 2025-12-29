@@ -1,0 +1,170 @@
+(footprint "3.9mm Bi directional side mount LED"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.254 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aff3d83d-589e-45f8-886b-09843ebe5396")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3.9mm Bi directional side mount LED"
+		(at 0 1.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fec3cae3-7f54-4b7a-8322-bd71211dd4c6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a05d5601-26a9-43bf-b772-50b5cf67ed42")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "42b49c68-059f-4179-82af-93a3bef7fa71")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_line
+		(start -0.5 -0.6)
+		(end 3.6 -0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e7af2436-1d70-4652-ad40-c08d95263149")
+	)
+	(fp_line
+		(start 3.6 -0.6)
+		(end 3.6 0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a0907ea0-31cb-4141-805b-1bf8028cdc67")
+	)
+	(fp_line
+		(start 3.6 0.6)
+		(end 2.4 0.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "72df9179-65b1-4d15-8707-b7b0ef49c55c")
+	)
+	(fp_rect
+		(start -0.7 -0.7)
+		(end 3.7 0.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "dd80e83a-9de8-4b43-87e6-2f7e40166b86")
+	)
+	(fp_line
+		(start -0.640369 -0.7)
+		(end 3.7 -0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "60a09607-cd40-43aa-afe2-c99fc2232840")
+	)
+	(fp_line
+		(start -0.610143 -0.743398)
+		(end 3.669775 -0.743398)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "521d6615-c54d-4b51-b3ba-58d984b95839")
+	)
+	(fp_arc
+		(start -0.610144 -0.743398)
+		(mid 1.556497 -2.2)
+		(end 3.688765 -0.69353)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "525df934-e226-4203-a810-2dac98fe1259")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "34744d6d-59ef-4095-b3b0-c351ec6b121e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 1.845 0)
+		(size 0.53 0.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9741c0a6-6c26-4058-a939-3293eccb4311")
+	)
+	(pad "2" smd roundrect
+		(at 1.065 0)
+		(size 0.53 0.44)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "9a57e59e-eebb-4b7a-a396-e0d59c56fc88")
+	)
+	(pad "3" smd roundrect
+		(at 2.9 0)
+		(size 1 0.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "a7bcf3bd-703b-4468-8767-3d2f6541c7c9")
+	)
+	(pad "4" smd roundrect
+		(at 0 0)
+		(size 1 0.88)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1)
+		(uuid "cc1eca60-dc6c-4bc5-bac8-1b2eddff3459")
+	)
+	(embedded_fonts no)
+)

@@ -924,7 +924,7 @@
 		(symbol "TP4056_1_1"
 			(rectangle
 				(start -7.62 11.938)
-				(end 7.62 -12.446)
+				(end 7.62 -9.906)
 				(stroke
 					(width 0)
 					(type solid)
@@ -970,7 +970,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -2.54 0)
+				(at -10.16 -1.27 0)
 				(length 2.54)
 				(name "STAT1"
 					(effects
@@ -988,7 +988,7 @@
 				)
 			)
 			(pin passive line
-				(at -10.16 -8.89 0)
+				(at -10.16 -6.35 0)
 				(length 2.54)
 				(name "STAT2"
 					(effects
