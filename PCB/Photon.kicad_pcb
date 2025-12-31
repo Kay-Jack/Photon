@@ -108,7 +108,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Outputs/Gerbers/")
+			(outputdirectory "Outputs/Gerbers/Photon V5/")
 		)
 	)
 	(net 0 "")
