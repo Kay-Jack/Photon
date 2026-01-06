@@ -1,9 +1,0 @@
-- Move power traces around 
-- Choose a 3.3 fixed buck and update schem/pcb
-- Changed inductor to 0603 package 750mA
-- Looking at changing buck to AP63203WU-7. 
-    - Out of stock currently 
-- going to use the PUYA PY32F002AL15S6TU for the controller now
-    - Still hand solderable 
-- Fix the issue of the LED being slightly on
-    - likely due to flux 
