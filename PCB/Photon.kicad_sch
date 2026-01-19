@@ -4436,6 +4436,16 @@
 		)
 		(uuid "37827f9f-b5ae-48f7-b9ad-665755cfe60d")
 	)
+	(text "UVLO 3.3V\n"
+		(exclude_from_sim no)
+		(at 165.1 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "38580ab8-fb9c-4bfd-8d1a-1d308ec71fc4")
+	)
 	(text "If usb (5V) present \n-> disable buck"
 		(exclude_from_sim no)
 		(at 189.23 173.228 0)
@@ -7268,7 +7278,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "10K"
 			(at 166.37 213.36 0)
 			(effects
 				(font
@@ -8097,7 +8107,7 @@
 		(dnp no)
 		(uuid "5c397e3d-5c2d-442f-a112-7f7aa5ede82d")
 		(property "Reference" "R3"
-			(at 160.02 201.93 0)
+			(at 166.37 200.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8105,8 +8115,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "30K"
-			(at 160.02 204.47 0)
+		(property "Value" "12K"
+			(at 166.37 203.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)

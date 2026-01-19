@@ -144,9 +144,9 @@
       },
       "teardrop_options": [
         {
-          "td_onpthpad": true,
+          "td_onpthpad": false,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -658,7 +658,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "Outputs/Gerbers/",
+      "plot": "../Outputs/Gerbers/Photon V5.1/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
