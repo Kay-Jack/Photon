@@ -659,7 +659,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Outputs/Gerbers/Photon V5.1/",
+      "plot": "../Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
