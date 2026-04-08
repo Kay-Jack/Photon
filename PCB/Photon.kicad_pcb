@@ -38819,7 +38819,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "V6 02-15-2026\n\n"
+	(gr_text "V7 04-07-2026\n\n"
 		(at 46.9 77.175 90)
 		(layer "B.SilkS")
 		(uuid "8494843a-d450-4b48-a844-899826b48264")
