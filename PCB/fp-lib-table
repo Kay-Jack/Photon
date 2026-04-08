@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Photon")(type "KiCad")(uri "${GITHUB}/Bike Light/Photon V5/Photon.pretty")(options "")(descr ""))
+  (lib (name "Photon")(type "KiCad")(uri "${GITHUB}/Personal/Photon/PCB/Photon.pretty")(options "")(descr ""))
+  (lib (name "SOIC Debug 8 ConN")(type "KiCad")(uri "${GITHUB}/Personal/Photon/PCB/SOIC 8 Debug Connector")(options "")(descr ""))
 )
