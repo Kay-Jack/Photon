@@ -10117,7 +10117,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588935238940966912"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7427089.pdf"
 			(at 232.41 194.31 0)
 			(effects
 				(font
@@ -10135,7 +10135,16 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier" "https://jlcpcb.com/partdetail/SXN_Shun_Xiang_Nuo_Elec-SM35212R2MT/C9890"
+		(property "Supplier" "https://www.lcsc.com/product-detail/C7427089.html?s_z=n_4.7uh"
+			(at 232.41 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part#" "ANR3015T4R7M"
 			(at 232.41 194.31 90)
 			(effects
 				(font
